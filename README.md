@@ -12,7 +12,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir saosp
 - cd ~/saosp
-- repo init -u https://github.com/SAOSP-L/platform_manifest.git -b L-5.1
+- repo init -u https://github.com/SAOSP-L/platform_manifest.git -b layers-5.1
 
 Sync the Source
 ---------------
