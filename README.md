@@ -21,6 +21,8 @@ Sync the Source
 Getting Ready to Build
 ----------------------
 - . build/envsetup.sh
+- breakfast device
+- brunch device
 
 
 Credits
