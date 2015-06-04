@@ -1,6 +1,4 @@
-SAOSP-L Github 
-===================
-(cm12 Theme Engine build)
+Blazing Rom Github
 ===================
 
 Setting up Build Environment
@@ -12,9 +10,9 @@ Setting up Build Environment
 Initializing the Source
 -----------------------
 (Assuming you have a valid build environment setup)
-- mkdir saosp
-- cd ~/saosp
-- repo init -u https://github.com/SAOSP-L/platform_manifest.git -b L
+- mkdir blaze
+- cd ~/blaze
+- repo init -u https://github.com/Blazing-Rom/platform_manifest.git -b cm
 
 Sync the Source
 ---------------
@@ -24,30 +22,11 @@ Getting Ready to Build
 ----------------------
 - . build/envsetup.sh
 
-Choose Supported Device to Build
---------------------------------
-- lunch saosp_flo-user 
-- lunch saosp_flounder-user
-- lunch saosp_hammerhead-user
-- lunch saosp_mako-user
-- lunch saosp_manta-user
-- lunch saosp_shamu-user
-
-Now Build it
-------------
-- mka otapackage
-
-For Quick Dirty Rebuilds
-------------------------
-- cd ~/saosp
-- repo sync -jx (x being the number of CPU jobs)
-- lunch and pick the right device (as mentioned above)
-- mka dirty
-- mka otapackage
 
 Credits
 -------
 - Google for AOSP
+- SAOSP-L
 - Rascarlo and RastaPop
 - Altaf-Mahdi and Euphoria-OS
 - DariosF and Purity ROM
@@ -70,8 +49,5 @@ Credits
 - The-Ancile-Project
 - AOD-Lollibeans
 - Android Open Development
-- Dhacker29
-- beanstown106
-- Ayysir
 - BitSyko Development
 - Others we may have missed
