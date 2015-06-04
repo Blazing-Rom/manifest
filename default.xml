@@ -503,6 +503,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor" name="Blazing-Rom/platform_vendor_proprietary" remote="github" revision="cm" />
-  <project path="vendor/simpleaosp" name="Blazing-Rom/platform_vendor_simpleaosp" remote="github" revision="cm" />
+  <project path="vendor/blazingrom" name="Blazing-Rom/platform_vendor_blazingrom" remote="github" revision="cm" />
 
 </manifest>
