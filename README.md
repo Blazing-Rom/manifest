@@ -12,7 +12,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir blaze
 - cd ~/blaze
-- repo init -u https://github.com/Blazing-Rom/platform_manifest.git -b layers
+- repo init -u https://github.com/Blazing-Rom/manifest.git -b layers
 
 Sync the Source
 ---------------
